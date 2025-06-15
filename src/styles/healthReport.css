@@ -1,0 +1,70 @@
+.bmi-page {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  background: #f9f9f9;
+  border-radius: 12px;
+}
+
+.bmi-card {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bmi-card p,
+.bmi-card li {
+  margin: 8px 0;
+}
+
+.bmi-card h3 {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+.pdf-download-btn {
+  margin: 10px 0;
+  padding: 8px 14px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pdf-download-btn:hover {
+  background-color: #45a049;
+}
+
+.food-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+.food-history-table th,
+.food-history-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.food-history-table th {
+  background-color: #f0f0f0;
+}
+
+.total-row td {
+  background-color: #e9f5e9;
+  font-weight: bold;
+}

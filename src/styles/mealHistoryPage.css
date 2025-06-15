@@ -1,0 +1,128 @@
+.tracker-page {
+  padding: 1rem;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+
+.date-control {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.fetch-btn {
+  padding: 0.4rem 0.8rem;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.meal-history-card {
+  padding: 1rem;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  color: #333;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.gradient-0 {
+  background: linear-gradient(120deg, #fdfbfb, #ebedee);
+}
+
+.gradient-1 {
+  background: linear-gradient(120deg, #e0c3fc, #8ec5fc);
+}
+
+.gradient-2 {
+  background: linear-gradient(120deg, #fbc2eb, #a6c1ee);
+}
+
+.gradient-3 {
+  background: linear-gradient(120deg, #d4c5a4, #d1fdff);
+}
+
+.gradient-4 {
+  background: linear-gradient(120deg, #b4caef, #c2e9fb);
+}
+
+.summary-box {
+  margin-bottom: 0.75rem;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+/* Meal Sections */
+.meal-section {
+  padding: 0.75rem;
+  margin-top: 1rem;
+  border-radius: 12px;
+  color: rgb(24, 23, 23);
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.meal-breakfast {
+  background: rgba(195, 240, 211, 0.932);
+}
+
+.meal-lunch {
+  background: rgba(244, 244, 202, 0.879);
+}
+
+.meal-dinner {
+  background: rgba(245, 199, 244, 0.922);
+}
+
+.meal-section h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+/* Grid for food cards */
+.meal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.food-card {
+  background: rgba(255, 255, 255, 0.95);
+  color: #333;
+  border-radius: 12px;
+  padding: 0.75rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+  font-size: 0.85rem;
+}
+
+.food-card:hover {
+  transform: translateY(-4px);
+}
+
+.food-img {
+  width: 100%;
+  max-height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.4rem;
+}
+
+.meal-time {
+  font-weight: normal;
+  font-size: 0.85em;
+  color: #555;
+}

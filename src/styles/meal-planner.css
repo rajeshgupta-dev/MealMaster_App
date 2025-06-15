@@ -1,0 +1,85 @@
+/* mealPlanner.css */
+
+.meal-planner-wrapper {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.meal-planner-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.meal-planner-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .meal-planner-layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+}
+
+.available-meals {
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.available-meals-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #444;
+}
+
+.meal-item {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+  transition: transform 0.2s;
+}
+
+.meal-item:active {
+  transform: scale(1.02);
+}
+
+.weekly-days-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 15px;
+}
+
+.day-column {
+  background-color: #e0e3e8;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 180px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.day-header {
+  text-align: center;
+  font-weight: 600;
+  color: #1a3e72;
+  margin-bottom: 8px;
+}
+
+.meal-assigned {
+  background-color: #d4edda;
+  padding: 8px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  font-size: 14px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}

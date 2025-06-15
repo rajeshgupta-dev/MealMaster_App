@@ -1,0 +1,31 @@
+.health-card {
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  transition: 0.3s ease;
+  width: 100%;
+  max-width: 400px;
+}
+
+.health-fit {
+  border-left: 6px solid #28a745;
+}
+
+.health-underweight {
+  border-left: 6px solid #ffc107;
+}
+
+.health-overweight {
+  border-left: 6px solid #dc3545;
+}
+
+.health-card h3 {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.health-card p {
+  margin: 6px 0;
+  color: #555;
+}

@@ -1,0 +1,111 @@
+.add-food-page {
+  width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #d2ebcd, #ffffff);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title */
+.form-title {
+  font-size: 32px;
+  color: #2e7d32;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+/* Grid-based form */
+.add-food-form {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Inputs and selects */
+.add-food-form input,
+.add-food-form select {
+  padding: 12px 14px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.add-food-form input:focus,
+.add-food-form select:focus {
+  outline: none;
+  border-color: #66bb6a;
+  background-color: #fff;
+}
+
+.add-food-form button[type="submit"] {
+  grid-column: span 3;
+  padding: 14px;
+  font-size: 16px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-food-form button[type="submit"]:hover {
+  background-color: #1b5e20;
+}
+
+/* Mobile friendly */
+@media (max-width: 868px) {
+  .add-food-form {
+    grid-template-columns: 1fr;
+    display: block;
+
+  }
+
+  .add-food-form input,
+  .add-food-form select {
+    margin-bottom: 14px;
+  }
+
+  .add-food-form button[type="submit"] {
+    width: 100%;
+  }
+
+  .tags-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/*  tags section */
+.tags-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  grid-column: span 3;
+}
+
+.tags-checkboxes label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #f0f0f0;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  width: fit-content;
+}

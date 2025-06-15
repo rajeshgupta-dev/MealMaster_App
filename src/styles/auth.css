@@ -1,0 +1,115 @@
+.auth-container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-box {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+}
+
+.auth-box h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.auth-box input {
+  padding: 12px 16px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.auth-box input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-box button:hover {
+  background-color: #0056b3;
+}
+
+.google-button {
+  background-color: #db4437;
+  margin-top: 0.5rem;
+}
+
+.google-button:hover {
+  background-color: #c33d2e;
+}
+
+.or-line {
+  text-align: center;
+  margin: 16px 0;
+  color: #888;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.or-line::before,
+.or-line::after {
+  content: "";
+  height: 1px;
+  background: #ccc;
+  position: absolute;
+  top: 50%;
+  width: 40%;
+}
+
+.or-line::before {
+  left: 0;
+}
+
+.or-line::after {
+  right: 0;
+}
+
+.switch-auth {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.switch-auth span {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.forgot-password {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #007bff;
+  cursor: pointer;
+  margin: 5px 0 15px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
