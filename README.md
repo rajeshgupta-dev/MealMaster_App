@@ -8,7 +8,9 @@ This project was developed as part of **Masai School’s Build Week**, where I w
 
 ### 🌐 Live Demo
 
-🔗 <a href="https://rajeshgupta-dev.github.io/MealMaster_App/" target="_blank">View Live Project</a>
+🔗 [View Live Project](https://rajeshgupta-dev.github.io/MealMaster_App/) *(Tip: right-click → Open in new tab)*
+
+
 
 
 ---
